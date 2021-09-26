@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const savedRoutes = require('../apiRoutes/savedRoutes');
+const savedRoutes = require('./savedRoutes');
 
 router.use(savedRoutes);
 
